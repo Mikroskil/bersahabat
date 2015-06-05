@@ -1,4 +1,4 @@
-Untuk tugas besar kali ini kita membuat persentasi tentang 
+Untuk tugas besar kali ini kita membuat presentasi tentang 
 
 -------------- DAMPAK BULLY BAGI KEHIDUPAN SOSIAL ----------------------
 

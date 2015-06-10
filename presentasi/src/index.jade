@@ -1,23 +1,25 @@
 doctype html
 HEAD
 html(style="background-image: url('images/batik.png');")
-html(style="background-image: url('images/mobil.jpg');")
   head
+    link(rel='icon', href='images/pic1.jpg')
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title .:: Bersahabat ::.
     
     link(rel='stylesheet', type='text/css', href='build/build.css')
+    script(language='JavaScript').
+      var txt=".:::: Bersahabat ::::. | .:::: Say No To Bully ::::. | ";
+      var kecepatan=100;var segarkan=null;function bergerak() { document.title=txt;
+      txt=txt.substring(1,txt.length)+txt.charAt(0);
+      segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
 
   body
 
     article
-      section
-        img(src='/src/pic1.jpg', alt='Say No To Bully', width='100px', height='100px')
+      section.aku(style="background-image: url('images/win1.jpg');")
         h2 Dampak Bully Bagi Kehidupan Sosial
-      section.doko
-      section.aku
-
+        img(src='images/pic1.jpg' width="100px")
       section.aku(style="background-image: url('images/win1.jpg');")
         block content
             .pane.hello
@@ -27,18 +29,10 @@ html(style="background-image: url('images/mobil.jpg');")
                 h4 By :
                 br
                 ul
-                  li Handoko  
-                  li Randy  Muhroji  
-                  li Alvantesha Priliandi  
-                  li Ica Sitorus
                 h5 Handoko  
                 h5 Randy  Muhroji  
                 h5 Alvantesha Priliandi  
                 h5 Ica Sitorus
-
-      section.aku(style="background-image: url('images/win1.jpg');")
-        h2 Dampak Bully Bagi Kehidupan Sosial
-        img(src="images/pic1.jpg" width="100px")
 
       section.aku(style="background-image: url('images/win1.jpg');")
         h2 Apa Itu Bully?

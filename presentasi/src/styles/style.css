@@ -1,0 +1,11 @@
+section{
+	background-image: url('images/win1.jpg');
+    background-position: 50px 50px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 600px;
+    width: 800px;
+}
+body{
+	background-image: url('../images/batik.png');
+}

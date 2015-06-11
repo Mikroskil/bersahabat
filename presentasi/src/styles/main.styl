@@ -50,6 +50,20 @@ h1
     text-shadow 7 * $px 8 * $px 0 grey
 h2
     text-shadow 4 * $px 4 * $px 0 cyan
+    
+.bespoke-slide {
+    transition: all .8s ease;
+    transform-origin: 50% 50% -400px;
+}
+.bespoke-inactive {
+    opacity: 0;
+}
+.bespoke-before {
+    transform: rotateY(-90deg);
+}
+.bespoke-after {
+    transform: rotateY(90deg);
+}
 .hello
         font-size 18 * $px
         h1,h3
@@ -69,3 +83,4 @@ h2
         h5,
             font-family 'Indie Flower'
             color $color_highlight
+            

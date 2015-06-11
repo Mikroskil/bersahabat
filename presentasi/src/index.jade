@@ -46,8 +46,13 @@ html
         text-align: center;
       }
       li.kiri{
-        list-style: circle;
         margin-left:-120px;
+      }
+      li{
+        list-style: decimal;
+      }
+      li.parag{
+        list-style:none;
       }
 
   body
@@ -55,6 +60,9 @@ html
       section.aku
         block content
             .pane.hello
+                br
+                br
+                br
                 h3 Dampak Bully 
                 br
                 br
@@ -62,6 +70,8 @@ html
                 h3 Dikedihupan Sosial
                 br
                 br
+                .gambar1
+                  img.depan(src='/images/pic1.jpg' 'width = 150px')
                     
       section.aku
         h1 Presented
@@ -78,13 +88,13 @@ html
         h2 Apa Itu Bully?
         h3.bullet
         ul 
-          li Bullying adalah perbuatan yang menyakiti seseorang atau sekelompok orang baik dalam bentuk kekerasan fisik, verbal, ataupun psikologis dalam sebuah lingkungan sosial. Bullying juga dapat diartikan sebagai bentuk agresi pada satu atau lebih anak secara berulang yang dengan sengaja mengintimidasi, melecehkan, atau membahayakan secara fisik korban yang dianggap tidak mampu membela dirinya sendiri.
+          li.parag Bullying adalah perbuatan yang menyakiti seseorang atau sekelompok orang baik dalam bentuk kekerasan fisik, verbal, ataupun psikologis dalam sebuah lingkungan sosial. Bullying juga dapat diartikan sebagai bentuk agresi pada satu atau lebih anak secara berulang yang dengan sengaja mengintimidasi, melecehkan, atau membahayakan secara fisik korban yang dianggap tidak mampu membela dirinya sendiri.
 
       section.aku
         h2 Karakteristik Bullying
-        p
-          ul
-            li adanya pengulangan dari waktu ke waktu dan adanya hubungan yang tidak seimbang antara korban dan pelaku. Dimana korban menganggap diri mereka lebih lemah dan tidak mampu membalas pengganggu mereka.
+        h3.bullet
+        ul
+          li.parag adanya pengulangan dari waktu ke waktu dan adanya hubungan yang tidak seimbang antara korban dan pelaku. Dimana korban menganggap diri mereka lebih lemah dan tidak mampu membalas pengganggu mereka.
 
       
       section.aku
@@ -115,9 +125,9 @@ html
 
       section.aku#neg
         h2 Dampak Positif
-        p
-          ul.kiri 
-            li Memacu diri ingin menjadi yang terbaik
+        p.bullet
+          ul
+            li.kiri Memacu diri ingin menjadi yang terbaik
 
       section.aku#neg
         h2 Dampak Negatif

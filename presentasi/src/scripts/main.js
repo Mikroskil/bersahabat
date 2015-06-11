@@ -12,6 +12,9 @@ var bespoke = require('bespoke'),
 
 // Bespoke.js
 bespoke.from('article', [
+  //terminal(),
+  //fancy(),
+  //voltaire(),
   cube(),
   keys(),
   touch(),

@@ -1,5 +1,7 @@
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
 var bespoke = require('bespoke'),
+  mozillaSandstone = require('bespoke-theme-mozilla-sandstone'),
+  greeny = require('bespoke-theme-greeny'),
   cube = require('bespoke-theme-cube'),
   keys = require('bespoke-keys'),
   touch = require('bespoke-touch'),
@@ -15,6 +17,8 @@ bespoke.from('article', [
   //terminal(),
   //fancy(),
   //voltaire(),
+  //mozillaSandstone();
+  //greeny(),
   cube(),
   keys(),
   touch(),

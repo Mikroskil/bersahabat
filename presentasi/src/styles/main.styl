@@ -88,6 +88,17 @@ $color_link_default = #c00
 $color_link_hover = saturate($color_link_default, 70%)
 $color_highlight = #ffc600
 $color_shadow = black
+
+//body
+//   font-family: helvetica;
+//.bespoke-parent 
+  //  background: #ccc;
+   // color: #06f;
+
+//.bespoke-slide {
+  //  background: white;
+
+
 raised()
     box-shadow 1 * $px 1 * $px 3 * $px rgba(0,0,0,.5)
 .pane
@@ -125,17 +136,28 @@ h2
 .bespoke-slide {
     transition: all .8s ease;
     transform-origin: 50% 50% -400px;
+    border: thick;
+    //background-color: blue;
 }
 .bespoke-inactive {
     opacity: 0;
 }
 .bespoke-before {
-    transform: rotateY(-90deg);
+    transform: rotateY(-45deg);
 }
 .bespoke-after {
-    transform: rotateY(90deg);
+    transform: rotateY(45deg);
 }
-
+.bespoke-progress{
+    height: 300px;
+}
+.bespoke-parent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 .hello
         font-size 18 * $px
         h1,h3

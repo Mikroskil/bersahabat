@@ -17,6 +17,7 @@ var bespoke = require('bespoke'),
   secondary = require('bespoke-secondary'),
   vcr = require('bespoke-vcr'),
   state = require('bespoke-state'),
+  //spotlight = require('bespoke-spotlight'),
   classes = require('bespoke-classes')
 
 // Bespoke.js
@@ -41,6 +42,7 @@ bespoke.from('article', [
   loop(),
   state(),
   classes()
+  //spotlight()
   //markdown()
 ]);
 
@@ -48,4 +50,5 @@ bespoke.from('article', [
 // This is actually loaded from "bower_components" thanks to
 // debowerify: https://github.com/eugeneware/debowerify
 require('prism');
+require('bespoke-spotlight');
 
